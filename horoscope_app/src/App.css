@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Euclid Circular B,sans-serif;
+}
+
+.mainContrainer{
+  background-color: #393e46
+}
+/* <button class="button-87" role="button">Button 87</button> */
+
+/* CSS */
+.button-87 {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 30px 0px 30px  
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: bottom;
+  height: 300px;
+}
+.content {
+  max-height: 800px;
+  overflow: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+p.thicker {
+  /* color: #685206;  */
+  font-family: 'Helvetica Neue', 
+  sans-serif;
+  font-size: 34px;
+  line-height: 34px; 
+  margin: 0 0 11px; 
+  text-align: justify; 
+  text-justify: inter-word;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body{
+  font-family: Euclid Circular B,sans-serif;
+}
+
+body #light{
+  background-color: #fff;
+  color: #121212;
+}
+
+body #dark{
+  background-color: #121212;
+  color: #fff;
+}
+
+.centered {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dark{
+  background-color: #121212;
+  color: #fff;
+}
+
+#light{
+  background-color: #fff;
+  color: #121212;
+}
+
+.centeredSVG {
+  display: flex; justify-content: center; align-items: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
